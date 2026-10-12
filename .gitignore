@@ -1,0 +1,61 @@
+# .NET / Visual Studio / Rider
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+
+# Generated builds and downloaded encoders
+[Dd]ist/
+[Bb]uild/
+artifacts/
+ffmpeg/
+*.exe
+*.dll
+*.pdb
+*.ex4
+*.ex5
+
+# Test reports, recordings, logs, and coverage
+reports/
+TestResults/
+coverage/
+logs/
+*.log
+*.trx
+*.dmp
+
+# Credentials and local-only settings
+.env
+.env.*
+!.env.example
+key.txt
+client_secret*.json
+credentials.json
+secrets.json
+tokens.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.p8
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
